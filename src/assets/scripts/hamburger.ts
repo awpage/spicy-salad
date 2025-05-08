@@ -3,7 +3,7 @@ import { animate, stagger } from "motion";
 export function animateHamburger() {
   const checkbox = document.querySelector("#hamburger")
   const navigation = document.querySelector("#navbar")!
-  const links = navigation.querySelectorAll("li");
+  const links = navigation.querySelectorAll("li")!;
 
   animate(navigation, {
     display: 'flex',

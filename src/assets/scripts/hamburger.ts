@@ -18,8 +18,8 @@ export function animateHamburger() {
     const target = event.target as HTMLInputElement;
     if (target.checked) {
       document.body.classList.add('overflow-hidden');
-      
-      animate(navigation, { x: ["-100%", "0%"], left: 0, right: 0 }, { duration: .3, ease: 'easeOut' })
+
+      animate(navigation, { x: ["-100%", "0%"], left: 0, right: 0, zIndex: 9999 }, { duration: .3, ease: 'easeOut' })
       animate(links, {
         y: [-20, 0],
         opacity: [0, 1]
@@ -31,7 +31,7 @@ export function animateHamburger() {
         })
     } else {
       document.body.classList.remove('overflow-hidden');
-      
+
       animate(links, {
         y: [0, -20],
         opacity: [1, 0]

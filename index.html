@@ -13,42 +13,48 @@
     <div class="lg:page max-lg:pl-[5%] max-lg:w-full flex justify-between items-center">
       <input type="checkbox" id="hamburger" class="hidden" />
       <div class="flex gap-3 items-center">
-        <label for="hamburger" class="btn hamburger flex flex-col gap-1 lg:hidden" aria-roledescription="hamburger">
+        <label for="hamburger" class="btn hamburger flex flex-col gap-1 lg:hidden" role="button"
+          aria-roledescription="opens hamburger menu">
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
         </label>
 
-        <div>TECHAPRO</div>
+        <div>
+          <img src="/Techapro Logo (1).png" width="100px" alt="Techapro's logo"/>
+        </div>
       </div>
 
       <nav class="">
-        <ul class="hidden lg:flex gap-5 max-lg:bg-primary-700 max-lg:p-5" id="navbar"
+        <ul class="hidden lg:flex gap-5 max-lg:bg-primary-400 max-lg:p-5" id="navbar"
           aria-roledescription="navigation menu">
           <li class="min-lg:hidden">
             <div class="flex justify-between items-center">
-              <label for="hamburger" class="hamburger flex flex-col gap-2 -mt-5">
+              <label for="hamburger" class="hamburger flex flex-col gap-2 -mt-5" role="button"
+                aria-roledescription="closes hamburger menu">
                 <div class="pt-[2px] px-1 bg-primary-200 rounded rotate-45 mt-5"></div>
                 <div class="pt-[2px] px-1 bg-primary-200 rounded -rotate-45 -mt-[10px]"></div>
               </label>
-              <div class="text-4xl text-white font-[600]">TECHAPRO</div>
+              <div class="text-4xl text-white font-[600]">
+                <img src="/public/Techapro Logo.png" width="100px" alt="Techapro's logo in white" />
+              </div>
             </div>
           </li>
           <li class="">
             <a href="/"
-              class="flex lg:border-b text-primary-500 lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-50">Home</a>
+              class="flex lg:border-b text-primary-500 lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-900">Home</a>
           </li>
           <li class="">
             <a href="/services"
-              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-300">Services</a>
+              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-900/65">Services</a>
           </li>
           <li class="">
             <a href="/academy"
-              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-300">Academy</a>
+              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-900/65">Academy</a>
           </li>
           <li class="">
             <a href="/contact"
-              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-300">Contact</a>
+              class="flex lg:py-5 lg:hover:text-primary-500 transition-colors ease-in-out max-lg:text-4xl max-lg:font-[500] max-lg:text-primary-900/65">Contact</a>
           </li>
         </ul>
       </nav>
@@ -91,7 +97,8 @@
                 Network Services
               </h3>
               <p class="">
-                End-to-end network solutions: Installations, maintenance, and optimization for speed, security and growth.
+                End-to-end network solutions: Installations, maintenance, and optimization for speed, security and
+                growth.
               </p>
               <ul class="opacity-75">
                 <li>
@@ -109,7 +116,7 @@
             <a href="/services#networks"
               class="inline-flex gap-3 items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
               style="transition-duration: 3ms;">
-              <span>Learn More</span>
+              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
               <svg class="w-6 h-6 text-black">
                 <use href="#icon-arrow-top-right"></use>
               </svg>
@@ -117,15 +124,16 @@
           </div>
         </div>
 
-        <div class="card bg-primary-500 shrink-0 flex lg:h-[50vh] relative overflow-hidden">
+        <div class="card bg-black shrink-0 flex lg:h-[50vh] relative overflow-hidden">
           <div
-            class="absolute top-0 right-0 left-0 bottom-0 bg-primary-500/80 text-white p-5 flex flex-col gap-7 items-start justify-end">
+            class="absolute top-0 right-0 left-0 bottom-0 bg-black/80 text-white p-5 flex flex-col gap-7 items-start justify-end">
             <div class="flex flex-col gap-2">
               <h3 class="text-5xl font-semibold">
                 IT Services
               </h3>
               <p class="">
-                End-to-end network solutions: Installations, maintenance, and optimization for speed, security and growth.
+                End-to-end network solutions: Installations, maintenance, and optimization for speed, security and
+                growth.
               </p>
               <ul class="opacity-75">
                 <li>
@@ -142,12 +150,50 @@
                 </li>
               </ul>
             </div>
-        
+
             <a href="/services#it"
-              class="inline-flex gap-3 items-center bg-white text-primary-500 p-3 rounded cursor-pointer transition-all ease-in"
+              class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
               style="transition-duration: 3ms;">
-              <span>Learn More</span>
-              <svg class="w-6 h-6 text-primary-500">
+              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
+              <svg class="w-6 h-6 text-black">
+                <use href="#icon-arrow-top-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card bg-black shrink-0 flex lg:h-[50vh] relative overflow-hidden">
+          <div
+            class="absolute top-0 right-0 left-0 bottom-0 bg-black/80 text-white p-5 flex flex-col gap-7 items-start justify-end">
+            <div class="flex flex-col gap-2">
+              <h3 class="text-5xl font-semibold">
+                Academy
+              </h3>
+              <p class="">
+                End-to-end network solutions: Installations, maintenance, and optimization for speed, security and
+                growth.
+              </p>
+              <ul class="opacity-75">
+                <li>
+                  - Server Management
+                </li>
+                <li>
+                  - VoIP
+                </li>
+                <li>
+                  - E-Library
+                </li>
+                <li>
+                  - Teleconferencing
+                </li>
+              </ul>
+            </div>
+
+            <a href="/services#it"
+              class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
+              style="transition-duration: 3ms;">
+              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
+              <svg class="w-6 h-6 text-black">
                 <use href="#icon-arrow-top-right"></use>
               </svg>
             </a>

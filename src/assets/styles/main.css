@@ -41,6 +41,6 @@ html, body {
 @utility card {
   border-radius: .5rem;
   height: 52vh;
-  background-image: url('./Vector.png');
+  background-image: url('Vector.png');
   cursor: pointer;
 }

@@ -17,7 +17,7 @@
       <input type="checkbox" id="hamburger" class="hidden" />
       <div class="flex gap-3 items-center">
         <label for="hamburger" class="btn hamburger flex flex-col gap-1 lg:hidden" aria-controls="mobileNav"
-          aria-expanded="true" role="button" aria-label="Toggle navigation menu">
+          aria-expanded="true" role="button">
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
@@ -28,12 +28,12 @@
         </div>
       </div>
 
-      <nav class="" aria-label="menu">
+      <nav class="" id="mobileNav" aria-label="menu">
         <ul class="hidden lg:flex gap-5 max-lg:bg-primary-400 max-lg:p-5" id="navbar" role="list">
           <li class="min-lg:hidden">
             <div class="flex justify-between items-center">
               <label for="hamburger" class="btn hamburger flex flex-col gap-2 -mt-5" aria-controls="mobileNav"
-                aria-expanded="true" role="button" aria-label="Toggle navigation menu">
+                aria-expanded="true" role="button">
                 <div class="pt-[2px] px-1 bg-primary-200 rounded rotate-45 mt-5"></div>
                 <div class="pt-[2px] px-1 bg-primary-200 rounded -rotate-45 -mt-[10px]"></div>
               </label>
@@ -488,7 +488,9 @@
 
             <a href="/services#networks"
               class="inline-flex gap-3 items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;" data-length="200px">
+              style="transition-duration: 3ms;" data-length="200px"
+              aria-label="Network Services"
+            >
               <span class="w-[80%] line-clamp-1 h-[24px]">
                 Network Services
               </span>
@@ -528,7 +530,9 @@
 
             <a href="/services#it"
               class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;" data-length="150px">
+              style="transition-duration: 3ms;" data-length="150px"
+              aria-label="IT Services"  
+            >
               <span class="w-[80%] line-clamp-1 h-[24px]">
                 IT Services
               </span>
@@ -568,7 +572,9 @@
 
             <a href="/services#it"
               class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;" data-length="210px">
+              style="transition-duration: 3ms;" data-length="210px"
+              aria-label="TechApro Academy"
+            >
               <span class="w-[80%] line-clamp-1 h-[24px]">
                 TechApro Academy
               </span>

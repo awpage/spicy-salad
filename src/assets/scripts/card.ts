@@ -1,4 +1,4 @@
-import { animate, hover, stagger } from "motion";
+import { animate, hover, inView, stagger } from "motion";
 
 export function animateCard() {
   const cards = document.querySelectorAll(".card")!;
@@ -35,7 +35,7 @@ export function animateCard() {
     );
     animate(h3, { y: ["0%", "5%"] });
 
-    hover(card, (el) => {
+    hover(card, () => {
       animate(a, { width: "auto" }, { duration: 3, ease: "circOut" });
       animate(h3, { y: ["50%", "0%"] }, { duration: 0.3, ease: "circOut" });
       animate(
@@ -79,7 +79,7 @@ export function animateCard() {
           li,
           { opacity: [1, 0], y: [0, 10] },
           { duration: 0.3, delay: stagger(0.03), easing: "easeIn" }
-        )
+        );
 
         animate(
           ul,
@@ -95,6 +95,41 @@ export function animateCard() {
         );
         animate(h3, { y: ["0%", "5%"] }, { duration: 0.3, ease: "circOut" });
       };
+    });
+  });
+}
+
+export function animateFeatureCard() {
+  const cards = document.querySelectorAll(".card--feature")!;
+
+  cards.forEach((card) => {
+    inView(card, () => {
+      animate(
+        card,
+        {
+          x: [-50, 0],
+          opacity: [.7, 1],
+        },
+        {
+          duration: 0.3,
+          delay: stagger(0.03),
+          ease: "easeIn",
+        }
+      );
+
+      return () =>
+        animate(
+          card,
+          {
+            x: [0, -50],
+            opacity: [.7, 1],
+          },
+          {
+            duration: 0.3,
+            delay: stagger(0.03),
+            ease: "easeIn",
+          }
+        );
     });
   });
 }

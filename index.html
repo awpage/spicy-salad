@@ -6,6 +6,9 @@
   <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TechApro - Empowering Tomorrow's innovators and today's businesses to thrive in a connected world</title>
+  <style rel="stylesheet">
+    @import url("https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+  </style>
 </head>
 
 <body class="bg-white">
@@ -13,30 +16,29 @@
     <div class="lg:page max-lg:pl-[5%] max-lg:w-full flex justify-between items-center">
       <input type="checkbox" id="hamburger" class="hidden" />
       <div class="flex gap-3 items-center">
-        <label for="hamburger" class="btn hamburger flex flex-col gap-1 lg:hidden" role="button"
-          aria-roledescription="opens hamburger menu">
+        <label for="hamburger" class="btn hamburger flex flex-col gap-1 lg:hidden" aria-controls="mobileNav"
+          aria-expanded="true" role="button" aria-label="Toggle navigation menu">
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
           <div class="pt-[2px] px-1 bg-black rounded"></div>
         </label>
 
         <div>
-          <img src="/Techapro Logo (1).png" width="100px" alt="Techapro's logo" />
+          <img src="/Techapro Logo--small.png" width="100px" alt="Techapro's logo" />
         </div>
       </div>
 
-      <nav class="">
-        <ul class="hidden lg:flex gap-5 max-lg:bg-primary-400 max-lg:p-5" id="navbar"
-          aria-roledescription="navigation menu">
+      <nav class="" aria-label="menu">
+        <ul class="hidden lg:flex gap-5 max-lg:bg-primary-400 max-lg:p-5" id="navbar" role="list">
           <li class="min-lg:hidden">
             <div class="flex justify-between items-center">
-              <label for="hamburger" class="hamburger flex flex-col gap-2 -mt-5" role="button"
-                aria-roledescription="closes hamburger menu">
+              <label for="hamburger" class="btn hamburger flex flex-col gap-2 -mt-5" aria-controls="mobileNav"
+                aria-expanded="true" role="button" aria-label="Toggle navigation menu">
                 <div class="pt-[2px] px-1 bg-primary-200 rounded rotate-45 mt-5"></div>
                 <div class="pt-[2px] px-1 bg-primary-200 rounded -rotate-45 -mt-[10px]"></div>
               </label>
               <div class="text-4xl text-white font-[600]">
-                <img src="/Techapro Logo.png" width="100px" alt="Techapro's logo in white" />
+                <img src="/Techapro Logo-black--small.png" width="100px" alt="Techapro's logo in white" />
               </div>
             </div>
           </li>
@@ -93,7 +95,8 @@
       </p>
 
       <div class="card--feature-trigger w-full mt-10 grid grid-cols-1 lg:flex flex-wrap justify-between gap-y-4">
-        <div class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <div class="absolute top-0 -right-5 opacity-50">
             <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none"
               stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -179,7 +182,8 @@
           </p>
         </div>
 
-        <div class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <div class="absolute top-0 -right-5 opacity-50">
             <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none"
               stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -272,7 +276,8 @@
           </p>
         </div>
 
-        <div class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <div class="absolute top-0 -right-5 opacity-50">
             <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none"
               stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -363,7 +368,8 @@
           </p>
         </div>
 
-        <div class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <div class="absolute top-0 -right-5 opacity-50">
             <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none"
               stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -403,7 +409,8 @@
           </p>
         </div>
 
-        <div class="card--feature lg:w-[24%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[24%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <div class="absolute top-0 -right-5 opacity-50">
             <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none"
               stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -481,8 +488,10 @@
 
             <a href="/services#networks"
               class="inline-flex gap-3 items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;">
-              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
+              style="transition-duration: 3ms;" data-length="200px">
+              <span class="w-[80%] line-clamp-1 h-[24px]">
+                Network Services
+              </span>
               <svg class="w-6 h-6 text-black">
                 <use href="#icon-arrow-top-right"></use>
               </svg>
@@ -519,8 +528,10 @@
 
             <a href="/services#it"
               class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;">
-              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
+              style="transition-duration: 3ms;" data-length="150px">
+              <span class="w-[80%] line-clamp-1 h-[24px]">
+                IT Services
+              </span>
               <svg class="w-6 h-6 text-black">
                 <use href="#icon-arrow-top-right"></use>
               </svg>
@@ -557,12 +568,71 @@
 
             <a href="/services#it"
               class="inline-flex items-center bg-white text-black p-3 rounded cursor-pointer transition-all ease-in"
-              style="transition-duration: 3ms;">
-              <span class="w-[80%] line-clamp-1 h-[24px]">Learn More</span>
+              style="transition-duration: 3ms;" data-length="210px">
+              <span class="w-[80%] line-clamp-1 h-[24px]">
+                TechApro Academy
+              </span>
               <svg class="w-6 h-6 text-black">
                 <use href="#icon-arrow-top-right"></use>
               </svg>
             </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex justify-center bg-white py-20 overflow-hidden">
+    <div class="lg:page max-lg:px-[5%] max-lg:w-full flex flex-col gap-5 items-center justify-center">
+      <h2 class="card--feature-trigger font-black text-2xl lg:text-5xl text-center capitalize lg:w-4/5">
+        From Seamless Networks to Skilled professionals:
+        <span class="text-primary-500">success stories that speak louder than words</span>
+      </h2>
+      <p class="text-center text-xl lg:w-2/3">
+        Whether it's a tech director praising our zero-downtime installations or an academy alum securing their CCNP
+        certification, these stories highlight why businesses trust us and learners choose us. Results don't lie.
+      </p>
+
+      <div class="card--feature-trigger w-full mt-10 grid grid-cols-3 gap-4">
+        <div
+          class="card--feature p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col justify-between gap-3 relative">
+          <p class="">
+            Thanks to TechApro, our factory is more connected and productive than ever.
+            <span class="text-primary-500 font-[500]">I highly recommend them</span>
+          </p>
+          <div class="flex justify-end">
+            <h3 class="">
+              - CEO, <b>AquaBoost</b>
+            </h3>
+          </div>
+        </div>
+
+        <div
+          class="card--feature p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col justify-between gap-3 relative">
+          <p class="">
+            <span class="text-primary-500 font-[500]">
+              TechApro exceeded our expectations
+            </span> and significantly improved our network performance.
+          </p>
+          <div class="flex justify-end">
+            <h3 class="">
+              - IT Dept., <b>Niger Foods</b>
+            </h3>
+          </div>
+        </div>
+
+        <div
+          class="card--feature p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col justify-between gap-3 relative">
+          <p class="">
+            TechApro's team demostrated exceptional technical expertise, meticulous attention to detail, and a strong
+            commitment to meeting our specific needs.
+            Their project management <span class="text-primary-500 font-[500]">skills were top-notch, ensuring a smooth
+              and efficient execution of project.</span>
+          </p>
+          <div class="flex justify-end">
+            <h3 class="">
+              - Anthony Daniel, <b>Las Noches Limited</b>
+            </h3>
           </div>
         </div>
       </div>

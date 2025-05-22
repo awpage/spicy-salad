@@ -10,6 +10,8 @@ export function animateCard() {
     const span = card.querySelector("span")!;
     const a = card.querySelector("a")!;
 
+    const length = a.dataset.length
+
     animate(
       span,
       { display: "none", opacity: 0 },
@@ -36,7 +38,7 @@ export function animateCard() {
     animate(h3, { y: ["0%", "5%"] });
 
     hover(card, () => {
-      animate(a, { width: "auto" }, { duration: 3, ease: "circOut" });
+      animate(a, { width: length }, { duration: 3, ease: "circOut" });
       animate(h3, { y: ["50%", "0%"] }, { duration: 0.3, ease: "circOut" });
       animate(
         ul,
@@ -63,7 +65,7 @@ export function animateCard() {
       );
       animate(
         a,
-        { width: "150px", display: "flex" },
+        { width: length, display: "flex" },
         { duration: 0.3, ease: "circOut" }
       );
 

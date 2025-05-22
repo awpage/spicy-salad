@@ -4,6 +4,7 @@ export function animateHamburger() {
   const checkbox = document.querySelector("#hamburger")
   const navigation = document.querySelector("#navbar")!
   const links = navigation.querySelectorAll("li")!;
+  const hamburger = document.querySelectorAll(".hamburger")!
 
   animate(navigation, {
     display: 'flex',
@@ -19,6 +20,10 @@ export function animateHamburger() {
     if (target.checked) {
       document.body.classList.add('overflow-hidden');
 
+      hamburger.forEach((el) => {
+        el.setAttribute("aria-expanded", "true");
+      })
+
       animate(navigation, { x: ["-100%", "0%"], left: 0, right: 0, zIndex: 9999 }, { duration: .3, ease: 'easeOut' })
       animate(links, {
         y: [-20, 0],
@@ -31,6 +36,10 @@ export function animateHamburger() {
         })
     } else {
       document.body.classList.remove('overflow-hidden');
+
+      hamburger.forEach((el) => {
+        el.setAttribute("aria-expanded", "false");
+      });
 
       animate(links, {
         y: [0, -20],

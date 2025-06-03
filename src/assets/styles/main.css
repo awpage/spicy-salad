@@ -43,3 +43,7 @@ html, body {
   background-image: url('/Vector.png');
   cursor: pointer;
 }
+
+@utility footer {
+  background-image: url('/Vector.png');
+}

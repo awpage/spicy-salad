@@ -4,12 +4,20 @@ import path from 'path'
 
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
+  plugins: [tailwindcss()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      "@": path.resolve(__dirname, "src"),
     },
   },
-})
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        about: "about.html",
+        academy: "academy.html",
+        services: "services.html",
+      },
+    },
+  },
+});

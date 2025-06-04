@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.techapro.com/sitemap.xml

@@ -47,3 +47,8 @@ html, body {
 @utility footer {
   background-image: url('/Vector.png');
 }
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}

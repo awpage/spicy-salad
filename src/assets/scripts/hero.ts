@@ -51,8 +51,6 @@ export function animateHero() {
 
   const swappedTextElements = document.querySelectorAll(".swapText");
 
-  console.log(swappedTextElements);
-
   if (swappedTextElements) {
     swappedTextElements.forEach((element) => {
       const texts = element.dataset.texts?.split(",") || [];

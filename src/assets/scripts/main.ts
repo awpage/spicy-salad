@@ -28,7 +28,7 @@ if (window.innerWidth > 768) {
     links.forEach((link) => {
       link.addEventListener("click", (e) => {
         const href = link.getAttribute("href")!;
-        if (href.startsWith("http")) return; // skip external
+        if (href.startsWith("http") || href.startsWith('mailto')) return; // skip external
 
         e.preventDefault();
         document.body.classList.add("fade-out");

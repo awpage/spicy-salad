@@ -39,7 +39,7 @@ html, body {
 
 @utility card {
   border-radius: .5rem;
-  height: 52vh;
+  height: 55vh;
   background-image: url('/Vector.png');
   cursor: pointer;
 }
@@ -51,4 +51,27 @@ html, body {
 .fade-out {
   opacity: 0;
   transition: opacity 0.5s ease-out;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.05);
+  border-radius: 9999px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Firefox support */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 100, 100, 0.05) transparent;
 }

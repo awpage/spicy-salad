@@ -57,7 +57,7 @@
         "@id": "https://techapro.com/#webpage",
         "url": "https://techapro.com/academy",
         "name": "Techapro Academy - Our academy enables future network experts by nuturing tech talent: through relevant Trends",
-        "description": "The Academy enables ready learners, from beginners to people transitioning into tech to eplore through the best and relevant technology trends and courses here at Techapro Academy. Teak a chance.",
+        "description": "The Academy enables ready learners, from beginners to people transitioning into tech to explore through the best and relevant technology trends and courses here at Techapro Academy. Teak a chance.",
         "inLanguage": "en",
         "isPartOf": {
           "@id": "https://techapro.com/#website"
@@ -198,8 +198,8 @@
         </span>
       </h1>
       <p class="text-center text-xl lg:w-4/5" id="subText">
-        The Academy enables ready learners, from beginners to people transitioning into tech to eplore through the best
-        and relevant technology trends and courses here at Techapro Academy. Teak a chance:
+        The Academy enables ready learners, from beginners to people transitioning into tech to explore through the best
+        and relevant technology trends and courses here at Techapro Academy. Take a chance:
       </p>
       <div class="mt-5 flex gap-5">
         <button
@@ -223,13 +223,13 @@
         </span>
       </h2>
       <p class="text-center text-xl lg:w-2/3">
-        Techapro Academy offers every peerson with tailored training programs designed to keep you a step ahead of the
+        Techapro Academy offers every person with tailored training programs designed to keep you a step ahead of the
         rest. With courses to choose from;
       </p>
 
       <div
         class="card--feature-trigger w-full mt-10 grid grid-cols-1 justify-between gap-y-4 lg:flex flex-wrap lg:!justify-end lg:gap-4">
-        <div
+        <!-- <div
           class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <h3 class="font-bold">
             System Administration
@@ -237,20 +237,96 @@
           <p class="text-sm">
             Master the art of managing systems, learn how to install, configure and maintain systems and servers.
           </p>
-        </div>
+        </div> -->
 
         <div
-          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
           <h3 class="font-bold">
             Networking
           </h3>
           <p class="text-sm">
             Learn the fundamentals of computer networking, IPs, routers and protocols.
           </p>
+          <button
+            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
+            Course synopsis
+          </button>
+
+          <dialog
+            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
+            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
+              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
+                <div class="">
+                  <h1 class="font-bold">
+                    Networking
+                  </h1>
+                  <span class="font-[300] text-gray-600 text-sm">
+                    Build the backbone of digital communication.
+                  </span>
+                </div>
+
+                <button class="btn" aria-label="Close Modal" autofocus>
+                  <svg class="w-6 h-6 text-black">
+                    <use href="#close-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
+                This course introduces you to the core concepts of computer networking, how devices connect,
+                communicate, and share data.
+                You'll gain the knowledge and hands-on skills needed to understand <abbr
+                  title="Internet Protocol">IP</abbr> addressing, routers, switches, and common network protocols that
+                make the internet and local networks work.
+
+                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
+                  <div class="text-gray-600">
+                    Course Duration: <span class="text-gray-900">3 Months</span>
+                  </div>
+                  <div class="text-gray-600">
+                    Location: <span class="text-gray-900">Hybrid</span>
+                  </div>
+                </div>
+
+                <b>What you'll learn:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>The foundations of computer networking and how networks operate.</li>
+                  <li>Understanding <abbr title="Internet Protocol">IP</abbr> addresses, subnetting, and network
+                    classes.</li>
+                  <li>The role of routers, switches, and other network devices.</li>
+                  <li>
+                    Key protocols such as
+                    <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr>,
+                    <abbr title="Domain Name System">DNS</abbr>,
+                    <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>,
+                    <abbr title="Hypertext Transfer Protocol">HTTP</abbr>, and
+                    <abbr title="File Transfer Protocol">FTP</abbr>.
+                  </li>
+                  <li>Network topologies (how networks are structured).</li>
+                  <li>Basic firewall and security concepts.</li>
+                  <li>Troubleshooting network connectivity issues.</li>
+                  <li>Introduction to tools like Wireshark, Ping, and Traceroute.</li>
+                </ul>
+
+                <br />
+                <b>Ideal for:</b> Anyone new to IT or curious about how networks work, from aspiring system
+                administrators to future cybersecurity experts and devlopers looking to strengthen their teach
+                foundation.
+
+                <br /><br />
+                <b>By the end of this course, you will:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Understand how different devices communicate over a network.</li>
+                  <li>Be able to configure simple networks and diagonise basic issues.</li>
+                  <li>Have a strong foundation for more advanced courses like network security or <abbr
+                      title="Cisco Certified Network Associate">CCNA</abbr> preparation.</li>
+                </ul>
+              </div>
+            </div>
+          </dialog>
         </div>
 
         <div
-          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
           <h3 class="font-bold">
             Cloud Computing
           </h3>
@@ -258,9 +334,81 @@
             Get hands-on with AWS, Azure and Google Cloud. Learn to deploy, manage and secure colud infrastructure for
             apps.
           </p>
+          <button
+            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
+            Course synopsis
+          </button>
+
+          <dialog
+            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
+            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
+              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
+                <div class="">
+                  <h1 class="font-bold">
+                    Cloud Computing
+                  </h1>
+                  <span class="font-[300] text-gray-600 text-sm">
+                    Step into the future of technology on the cloud.
+                  </span>
+                </div>
+
+                <button class="btn" aria-label="Close Modal" autofocus>
+                  <svg class="w-6 h-6 text-black">
+                    <use href="#close-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
+                This course will give you hands-on experience with leading cloud platforms like <abbr
+                  title="Amazon Web Service">AWS</abbr>, Microsoft Azure, and Google Cloud.
+                You'll learn how to deploy, manage, and seecure cloud infrastructure that powers today's applications
+                and services.
+                Whether you're aiming for a cloud career or want to stay relevant in modern <abbr
+                  title="Information Technology">IT</abbr>, this course is yout launchpad.
+
+                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
+                  <div class="text-gray-600">
+                    Course Duration: <span class="text-gray-900">3 Months</span>
+                  </div>
+                  <div class="text-gray-600">
+                    Location: <span class="text-gray-900">Hybrid</span>
+                  </div>
+                </div>
+
+                <b>What you'll learn:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Introduction to cloud computing models (<abbr title="Infrastructure as a Service">IaaS</abbr>,
+                    <abbr title="Platform as a Service">PaaS</abbr>, <abbr title="Software as a Service">SaaS</abbr>.
+                  </li>
+                  <li>Core services in <abbr title="Amazon Web Service">AWS</abbr>, Azure amd Google Cloud.</li>
+                  <li>Creating and managing virtual machines, storage, and databases.</li>
+                  <li>Setting up scalable and secure cloud environments.</li>
+                  <li>Understanding Identity & Access Management(IAM).</li>
+                  <li>Deploying apps using cloud-native tools and containers.</li>
+                  <li>Cost management and best practices for cloud efficiency.</li>
+                  <li>Basics of cloud security, compliance, and monitoring.</li>
+                </ul>
+
+                <br />
+                <b>Ideal for:</b> Aspiring cloud engineers, system admins looking to upgrade theeir skills, or tech
+                enthusiasts curious about how apps scale globally. Also great for anyone
+                pursuing certifications like <abbr title="Amazon Web Service">AWS</abbr> Certified Cloud Practitioner,
+                Microsoft Azure Fundamentals, or Google Cloud Digital Leader.
+
+                <br /><br />
+                <b>By the end of this course, you will:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Understand how the cloud works behind the scenes.</li>
+                  <li>Be able to deploy and manage cloud-based infrastructure.</li>
+                  <li>Take your first step towards a career in cloud engineering or <abbr
+                      title="Development and Operations">DevOps</abbr>.</li>
+                </ul>
+              </div>
+            </div>
+          </dialog>
         </div>
 
-        <div
+        <!-- <div
           class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <h3 class="font-bold">
             Artificial Intelligence
@@ -269,12 +417,12 @@
             From machine learning to natural language processing, explore the cutting edge of Artificial Intelligence by
             learning to build applications and programs to think, learn and evolve.
           </p>
-        </div>
+        </div> -->
 
-        <div class="hidden lg:w-[24%] p-10 lg:flex">
-        </div>
+        <!-- <div class="hidden lg:w-[24%] p-10 lg:flex">
+        </div> -->
 
-        <div
+        <!-- <div
           class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
           <h3 class="font-bold">
             DevOps
@@ -283,10 +431,10 @@
             Learn how to streamline software development with DevOps. Automate, collaborate and code with industry
             experts.
           </p>
-        </div>
+        </div> -->
 
         <div
-          class="card--feature lg:w-[24%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+          class="card--feature lg:w-[32%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start flex-col gap-3 relative">
           <h3 class="font-bold">
             3D Modeling
           </h3>
@@ -294,11 +442,62 @@
             A course perfect for creatives, animators and game developers. From concept to creation, from draft to
             delivered masterpieces. Learn to bring ideas to life with 3D Modelling tools.
           </p>
+          <button
+            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
+            Course synopsis
+          </button>
+          <dialog
+            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
+            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
+              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
+                <div class="">
+                  <h1 class="font-bold">
+                    3D Modelling
+                  </h1>
+                  <span class="font-[300] text-gray-600 text-sm">
+                    Step into the future of technology on the cloud.
+                  </span>
+                </div>
+
+                <button class="btn" aria-label="Close Modal" autofocus>
+                  <svg class="w-6 h-6 text-black">
+                    <use href="#close-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
+                This course is for you.
+
+                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
+                  <div class="text-gray-600">
+                    Course Duration: <span class="text-gray-900">3 Months</span>
+                  </div>
+                  <div class="text-gray-600">
+                    Location: <span class="text-gray-900">Hybrid</span>
+                  </div>
+                </div>
+
+                <b>What you'll learn:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>A lot.</li>
+                </ul>
+
+                <br />
+                <b>Ideal for:</b> Everybody
+
+                <br /><br />
+                <b>By the end of this course, you will:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Be able to do a lot.</li>
+                </ul>
+              </div>
+            </div>
+          </dialog>
         </div>
 
-        <div class="hidden lg:w-[24%] p-10 lg:flex">
-        </div>
+        <!-- <div class="hidden lg:w-[24%] p-10 lg:flex"> -->
       </div>
+    </div>
     </div>
   </section>
 
@@ -398,14 +597,19 @@
   </footer>
 
   <svg style="display: none;">
-    <symbol id="icon-arrow-top-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M7 17L17 7" />
-      <path d="M7 7h10v10" />
+    <symbol id="close-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <path
+          d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM15.36 14.3C15.65 14.59 15.65 15.07 15.36 15.36C15.21 15.51 15.02 15.58 14.83 15.58C14.64 15.58 14.45 15.51 14.3 15.36L12 13.06L9.7 15.36C9.55 15.51 9.36 15.58 9.17 15.58C8.98 15.58 8.79 15.51 8.64 15.36C8.35 15.07 8.35 14.59 8.64 14.3L10.94 12L8.64 9.7C8.35 9.41 8.35 8.93 8.64 8.64C8.93 8.35 9.41 8.35 9.7 8.64L12 10.94L14.3 8.64C14.59 8.35 15.07 8.35 15.36 8.64C15.65 8.93 15.65 9.41 15.36 9.7L13.06 12L15.36 14.3Z"
+          fill="#292D32"></path>
+      </g>
     </symbol>
   </svg>
 
   <script type="module" src="src/assets/scripts/main.ts"></script>
+  <script type="module" src="src/assets/scripts/academy.ts"></script>
 </body>
 
 </html>

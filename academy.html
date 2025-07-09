@@ -229,15 +229,87 @@
 
       <div
         class="card--feature-trigger w-full mt-10 grid grid-cols-1 justify-between gap-y-4 lg:flex flex-wrap lg:!justify-end lg:gap-4">
-        <!-- <div
-          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
+        <div
+          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
           <h3 class="font-bold">
-            System Administration
+            Cloud Computing
           </h3>
           <p class="text-sm">
-            Master the art of managing systems, learn how to install, configure and maintain systems and servers.
+            Get hands-on with AWS, Azure and Google Cloud. Learn to deploy, manage and secure colud infrastructure.
           </p>
-        </div> -->
+          <button
+            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
+            Course synopsis
+          </button>
+
+          <dialog
+            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
+            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
+              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
+                <div class="">
+                  <h1 class="font-bold">
+                    Cloud Computing
+                  </h1>
+                  <span class="font-[300] text-gray-600 text-sm">
+                    Step into the future of technology on the cloud.
+                  </span>
+                </div>
+
+                <button class="btn" aria-label="Close Modal" autofocus>
+                  <svg class="w-6 h-6 text-black">
+                    <use href="#close-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
+                This course will give you hands-on experience with leading cloud platforms like <abbr
+                  title="Amazon Web Service">AWS</abbr>, Microsoft Azure, and Google Cloud.
+                You'll learn how to deploy, manage, and seecure cloud infrastructure that powers today's applications
+                and services.
+                Whether you're aiming for a cloud career or want to stay relevant in modern <abbr
+                  title="Information Technology">IT</abbr>, this course is yout launchpad.
+
+                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
+                  <div class="text-gray-600">
+                    Course Duration: <span class="text-gray-900">3 Months</span>
+                  </div>
+                  <div class="text-gray-600">
+                    Location: <span class="text-gray-900">Hybrid</span>
+                  </div>
+                </div>
+
+                <b>What you'll learn:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Introduction to cloud computing models (<abbr title="Infrastructure as a Service">IaaS</abbr>,
+                    <abbr title="Platform as a Service">PaaS</abbr>, <abbr title="Software as a Service">SaaS</abbr>.
+                  </li>
+                  <li>Core services in <abbr title="Amazon Web Service">AWS</abbr>, Azure amd Google Cloud.</li>
+                  <li>Creating and managing virtual machines, storage, and databases.</li>
+                  <li>Setting up scalable and secure cloud environments.</li>
+                  <li>Understanding Identity & Access Management(IAM).</li>
+                  <li>Deploying apps using cloud-native tools and containers.</li>
+                  <li>Cost management and best practices for cloud efficiency.</li>
+                  <li>Basics of cloud security, compliance, and monitoring.</li>
+                </ul>
+
+                <br />
+                <b>Ideal for:</b> Aspiring cloud engineers, system admins looking to upgrade theeir skills, or tech
+                enthusiasts curious about how apps scale globally. Also great for anyone
+                pursuing certifications like <abbr title="Amazon Web Service">AWS</abbr> Certified Cloud Practitioner,
+                Microsoft Azure Fundamentals, or Google Cloud Digital Leader.
+
+                <br /><br />
+                <b>By the end of this course, you will:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Understand how the cloud works behind the scenes.</li>
+                  <li>Be able to deploy and manage cloud-based infrastructure.</li>
+                  <li>Take your first step towards a career in cloud engineering or <abbr
+                      title="Development and Operations">DevOps</abbr>.</li>
+                </ul>
+              </div>
+            </div>
+          </dialog>
+        </div>
 
         <div
           class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
@@ -245,7 +317,7 @@
             Networking
           </h3>
           <p class="text-sm">
-            Learn the fundamentals of computer networking, IPs, routers and protocols.
+            Learn the fundamentals and advance of computer networking, IPs, switching and routing protocols.
           </p>
           <button
             class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
@@ -326,121 +398,12 @@
         </div>
 
         <div
-          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
-          <h3 class="font-bold">
-            Cloud Computing
-          </h3>
-          <p class="text-sm">
-            Get hands-on with AWS, Azure and Google Cloud. Learn to deploy, manage and secure colud infrastructure for
-            apps.
-          </p>
-          <button
-            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
-            Course synopsis
-          </button>
-
-          <dialog
-            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
-            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
-              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
-                <div class="">
-                  <h1 class="font-bold">
-                    Cloud Computing
-                  </h1>
-                  <span class="font-[300] text-gray-600 text-sm">
-                    Step into the future of technology on the cloud.
-                  </span>
-                </div>
-
-                <button class="btn" aria-label="Close Modal" autofocus>
-                  <svg class="w-6 h-6 text-black">
-                    <use href="#close-icon"></use>
-                  </svg>
-                </button>
-              </div>
-              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
-                This course will give you hands-on experience with leading cloud platforms like <abbr
-                  title="Amazon Web Service">AWS</abbr>, Microsoft Azure, and Google Cloud.
-                You'll learn how to deploy, manage, and seecure cloud infrastructure that powers today's applications
-                and services.
-                Whether you're aiming for a cloud career or want to stay relevant in modern <abbr
-                  title="Information Technology">IT</abbr>, this course is yout launchpad.
-
-                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
-                  <div class="text-gray-600">
-                    Course Duration: <span class="text-gray-900">3 Months</span>
-                  </div>
-                  <div class="text-gray-600">
-                    Location: <span class="text-gray-900">Hybrid</span>
-                  </div>
-                </div>
-
-                <b>What you'll learn:</b>
-                <ul class="list-disc list-outside ml-5">
-                  <li>Introduction to cloud computing models (<abbr title="Infrastructure as a Service">IaaS</abbr>,
-                    <abbr title="Platform as a Service">PaaS</abbr>, <abbr title="Software as a Service">SaaS</abbr>.
-                  </li>
-                  <li>Core services in <abbr title="Amazon Web Service">AWS</abbr>, Azure amd Google Cloud.</li>
-                  <li>Creating and managing virtual machines, storage, and databases.</li>
-                  <li>Setting up scalable and secure cloud environments.</li>
-                  <li>Understanding Identity & Access Management(IAM).</li>
-                  <li>Deploying apps using cloud-native tools and containers.</li>
-                  <li>Cost management and best practices for cloud efficiency.</li>
-                  <li>Basics of cloud security, compliance, and monitoring.</li>
-                </ul>
-
-                <br />
-                <b>Ideal for:</b> Aspiring cloud engineers, system admins looking to upgrade theeir skills, or tech
-                enthusiasts curious about how apps scale globally. Also great for anyone
-                pursuing certifications like <abbr title="Amazon Web Service">AWS</abbr> Certified Cloud Practitioner,
-                Microsoft Azure Fundamentals, or Google Cloud Digital Leader.
-
-                <br /><br />
-                <b>By the end of this course, you will:</b>
-                <ul class="list-disc list-outside ml-5">
-                  <li>Understand how the cloud works behind the scenes.</li>
-                  <li>Be able to deploy and manage cloud-based infrastructure.</li>
-                  <li>Take your first step towards a career in cloud engineering or <abbr
-                      title="Development and Operations">DevOps</abbr>.</li>
-                </ul>
-              </div>
-            </div>
-          </dialog>
-        </div>
-
-        <!-- <div
-          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
-          <h3 class="font-bold">
-            Artificial Intelligence
-          </h3>
-          <p class="text-sm">
-            From machine learning to natural language processing, explore the cutting edge of Artificial Intelligence by
-            learning to build applications and programs to think, learn and evolve.
-          </p>
-        </div> -->
-
-        <!-- <div class="hidden lg:w-[24%] p-10 lg:flex">
-        </div> -->
-
-        <!-- <div
-          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex flex-col gap-3 relative">
-          <h3 class="font-bold">
-            DevOps
-          </h3>
-          <p class="text-sm">
-            Learn how to streamline software development with DevOps. Automate, collaborate and code with industry
-            experts.
-          </p>
-        </div> -->
-
-        <div
           class="card--feature lg:w-[32%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start flex-col gap-3 relative">
           <h3 class="font-bold">
-            3D Modeling
+            3D Modelling
           </h3>
           <p class="text-sm">
-            A course perfect for creatives, animators and game developers. From concept to creation, from draft to
-            delivered masterpieces. Learn to bring ideas to life with 3D Modelling tools.
+            Designed for creatives, innovators and hobbyists, this course makes 3D modelling and printing truly addictive. You'll go beyond the screen, learning to transform your design to reality.
           </p>
           <button
             class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
@@ -466,8 +429,10 @@
                 </button>
               </div>
               <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
-                This course is designed for creatives, animators, and game developers who want to turn their ideas in 3D masterpieces.
-                From your first concept sketch to fully rendered models, you'll learn how to create, sculpt, texture, and animate 3D assets using industry-standard tools.
+                This course is designed for creatives, animators, and game developers who want to turn their ideas in 3D
+                masterpieces.
+                From your first concept sketch to fully rendered models, you'll learn how to create, sculpt, texture,
+                and animate 3D assets using industry-standard tools.
 
                 <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
                   <div class="text-gray-600">
@@ -480,18 +445,20 @@
 
                 <b>What you'll learn:</b>
                 <ul class="list-disc list-outside ml-5">
-                  <li>Principles of 3D modeling and design.</li>
+                  <li>Principles of 3D Modelling and design.</li>
                   <li>Getting started with tools like Blender, Maya, or 3ds Max.</li>
-                  <li>Modeling basics: shapes, meshes, polygons, and topology.</li>
+                  <li>Modelling basics: shapes, meshes, polygons, and topology.</li>
                   <li>Sculpting high-deetail characters and environments.</li>
                   <li>UV mapping and texturing for realism.</li>
                   <li>Basic rigging and animation for movement.</li>
                   <li>Rendering techniques for polished outputs.</li>
-                  <li>Exporting models for games, animation, or <abbr title="Argumented Reality/Virtual Reality">AR/VR</abbr> use</li>
+                  <li>Exporting models for games, animation, or <abbr
+                      title="Argumented Reality/Virtual Reality">AR/VR</abbr> use</li>
                 </ul>
 
                 <br />
-                <b>Ideal for:</b> Digital artists, animators, game designers, architects, and storytellers ready to explore the 3D world. No prior experience reequired, just creativity and a passion for visual design.
+                <b>Ideal for:</b> Digital artists, animators, game designers, architects, and storytellers ready to
+                explore the 3D world. No prior experience reequired, just creativity and a passion for visual design.
 
                 <br /><br />
                 <b>By the end of this course, you will:</b>
@@ -504,8 +471,6 @@
             </div>
           </dialog>
         </div>
-
-        <!-- <div class="hidden lg:w-[24%] p-10 lg:flex"> -->
       </div>
     </div>
     </div>

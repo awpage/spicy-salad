@@ -147,9 +147,9 @@
       </div>
 
       <nav class="" id="mobileNav" aria-label="menu">
-        <ul class="hidden lg:flex gap-5 max-lg:bg-primary-400 max-lg:p-5" id="navbar" role="list">
+        <ul class="hidden lg:flex gap-5 max-lg:bg-white max-lg:p-5" id="navbar" role="list">
           <li class="min-lg:hidden">
-            <div class="flex justify-between items-center">
+            <div class="flex gap-5 items-center border-b border-primary-50">
               <label for="hamburger" class="btn hamburger flex flex-col gap-2 -mt-5" aria-controls="mobileNav"
                 aria-expanded="true" role="button" aria-label="menu">
                 <div class="pt-[2px] px-1 bg-primary-200 rounded rotate-45 mt-5"></div>
@@ -191,7 +191,7 @@
   <section class="h-[90vh] flex justify-center bg-white">
     <div class="lg:page max-lg:px-[5%] max-lg:w-full h-[90vh] flex flex-col gap-5 items-center justify-center">
       <h1 class="font-black text-3xl lg:text-6xl text-center capitalize" id="mainHeading">
-        Our academy enables future network experts by nuturing tech talent:
+        Our academy enables future experts by nurturing tech talent:
         <span class="text-primary-500 ease-in-out transition">
           through relevant
           <span class="inline-block text-left swapText w-[160px]" data-texts="Technology,Trends,Tools">Technology</span>
@@ -201,7 +201,7 @@
         The Academy enables ready learners, from beginners to people transitioning into tech to explore through the best
         and relevant technology trends and courses here at Techapro Academy. Take a chance:
       </p>
-      <div class="mt-5 flex gap-5">
+      <div class="mt-5 flex max-lg:flex-col gap-5">
         <button
           class="btn py-4 px-8 rounded-xl font-[500] border-2 border-primary-500/30 text-primary hover:bg-primary hover:text-white ease-in-out transition-colors">
           Join The Next Cohort
@@ -230,12 +230,13 @@
       <div
         class="card--feature-trigger w-full mt-10 grid grid-cols-1 justify-between gap-y-4 lg:flex flex-wrap lg:!justify-end lg:gap-4">
         <div
-          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
           <h3 class="font-bold">
             Cloud Computing
           </h3>
           <p class="text-sm">
-            Get hands-on with AWS, Azure and Google Cloud. Learn to deploy, manage and secure colud infrastructure.
+            Get hands-on with Huawei, AWS, Azure and Google Cloud. Learn to deploy, manage and secure colud
+            infrastructure.
           </p>
           <button
             class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
@@ -262,12 +263,12 @@
                 </button>
               </div>
               <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
-                This course will give you hands-on experience with leading cloud platforms like <abbr
+                This course will give you hands-on experience with leading cloud platforms like Huawei, <abbr
                   title="Amazon Web Service">AWS</abbr>, Microsoft Azure, and Google Cloud.
-                You'll learn how to deploy, manage, and seecure cloud infrastructure that powers today's applications
+                You'll learn how to deploy, manage, and secure cloud infrastructure that powers today's applications
                 and services.
                 Whether you're aiming for a cloud career or want to stay relevant in modern <abbr
-                  title="Information Technology">IT</abbr>, this course is yout launchpad.
+                  title="Information Technology">IT</abbr>, this course is your launchpad.
 
                 <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
                   <div class="text-gray-600">
@@ -283,7 +284,7 @@
                   <li>Introduction to cloud computing models (<abbr title="Infrastructure as a Service">IaaS</abbr>,
                     <abbr title="Platform as a Service">PaaS</abbr>, <abbr title="Software as a Service">SaaS</abbr>.
                   </li>
-                  <li>Core services in <abbr title="Amazon Web Service">AWS</abbr>, Azure amd Google Cloud.</li>
+                  <li>Core services in Huawei, <abbr title="Amazon Web Service">AWS</abbr>, Azure amd Google Cloud.</li>
                   <li>Creating and managing virtual machines, storage, and databases.</li>
                   <li>Setting up scalable and secure cloud environments.</li>
                   <li>Understanding Identity & Access Management(IAM).</li>
@@ -293,9 +294,10 @@
                 </ul>
 
                 <br />
-                <b>Ideal for:</b> Aspiring cloud engineers, system admins looking to upgrade theeir skills, or tech
+                <b>Ideal for:</b> Aspiring cloud engineers, system admins looking to upgrade their skills, or tech
                 enthusiasts curious about how apps scale globally. Also great for anyone
-                pursuing certifications like <abbr title="Amazon Web Service">AWS</abbr> Certified Cloud Practitioner,
+                pursuing certifications like Huawei Cloud Services, <abbr title="Amazon Web Service">AWS</abbr>
+                Certified Cloud Practitioner,
                 Microsoft Azure Fundamentals, or Google Cloud Digital Leader.
 
                 <br /><br />
@@ -312,7 +314,7 @@
         </div>
 
         <div
-          class="card--feature lg:w-[32%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
+          class="card--feature lg:w-[24%] p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start justify-between flex-col gap-3 relative">
           <h3 class="font-bold">
             Networking
           </h3>
@@ -388,7 +390,7 @@
                 <b>By the end of this course, you will:</b>
                 <ul class="list-disc list-outside ml-5">
                   <li>Understand how different devices communicate over a network.</li>
-                  <li>Be able to configure simple networks and diagonise basic issues.</li>
+                  <li>Be able to configure simple networks and troubleshoot basic issues.</li>
                   <li>Have a strong foundation for more advanced courses like network security or <abbr
                       title="Cisco Certified Network Associate">CCNA</abbr> preparation.</li>
                 </ul>
@@ -398,12 +400,86 @@
         </div>
 
         <div
-          class="card--feature lg:w-[32%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start flex-col gap-3 relative">
+          class="card--feature lg:w-[24%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start flex-col justify-between gap-3 relative">
+          <h3 class="font-bold">
+            System Administration
+          </h3>
+          <p class="text-sm">
+            Master the art of managing systems, learn how to install, configure and maintain systems and servers.
+          </p>
+          <button
+            class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
+            Course synopsis
+          </button>
+          <dialog
+            class="open:fixed open:left-0 open:right-0 open:top-0 open:bottom-0 open:inset-0 open:flex open:items-center open:justify-center bg-transparent w-full h-full z-50">
+            <div class="p-8 w-10/12 md:w-1/3 h-2/3 bg-white rounded-xl shadow-2xl overflow-hidden">
+              <div class="border-b border-gray-100 flex items-center justify-between pb-3 font-[500]">
+                <div class="">
+                  <h1 class="font-bold">
+                    System Administration
+                  </h1>
+                  <span class="font-[300] text-gray-600 text-sm">
+                    Take control of the systems that power modern businesses.
+                  </span>
+                </div>
+        
+                <button class="btn" aria-label="Close Modal" autofocus>
+                  <svg class="w-6 h-6 text-black">
+                    <use href="#close-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
+                In this course, you'll learn how to install, configure, and manage computer systems and servers, skills that are
+                essential for keeping today's digital environments running smoothly. Whether you're new to IT or looking to grow your
+                technical know-how, this course breaks down complex system tasks into clear, manageable steps.
+        
+                <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
+                  <div class="text-gray-600">
+                    Course Duration: <span class="text-gray-900">3 Months</span>
+                  </div>
+                  <div class="text-gray-600">
+                    Location: <span class="text-gray-900">Hybrid</span>
+                  </div>
+                </div>
+        
+                <b>What you'll learn:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>The basics of system administration and how operating systems work.</li>
+                  <li>How to install and set up popular operating systems like Windows and Linux.</li>
+                  <li>Managing users, groups, file systems, and system permissions.</li>
+                  <li>Setting up and maintaining core services like web servers, <abbr title="Domain Name Server">DNS</abbr>, and <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>.</li>
+                  <li>Network setup and troubleshooting tips.</li>
+                  <li>Automating routine tasks using tools like Ansible and Bash scripting.</li>
+                  <li>Keeping systems up-to-date and secure with patch management.</li>
+                  <li>Monitoring system performance and planning for backups and recovery.</li>
+                </ul>
+        
+                <br />
+                <b>Ideal for:</b> Beginners curious about IT infrastructure, tech enthusiasts wanting hands-on experience, and junior professionals
+                preparing for system admin roles or certifications.
+        
+                <br /><br />
+                <b>By the end of this course, you will:</b>
+                <ul class="list-disc list-outside ml-5">
+                  <li>Know how to keep systems running smoothly and securely.</li>
+                  <li>Be able to troubleshoot common system issues.</li>
+                  <li>Feel confident managing real-world servers and IT environments.</li>
+                </ul>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+        <div
+          class="card--feature lg:w-[24%] justify-self-center my-0 mx-auto p-10 border border-gray-200 bg-gray-50 rounded overflow-hidden flex items-start flex-col gap-3 relative">
           <h3 class="font-bold">
             3D Modelling
           </h3>
           <p class="text-sm">
-            Designed for creatives, innovators and hobbyists, this course makes 3D modelling and printing truly addictive. You'll go beyond the screen, learning to transform your design to reality.
+            Designed for creatives, innovators and hobbyists, this course makes 3D modelling and printing truly
+            addictive. You'll go beyond the screen, learning to transform your design to reality.
           </p>
           <button
             class="dialog-trigger btn text-sm inline-flex border border-gray-300 py-2 px-3 rounded w-auto hover:bg-gray-200 transition-colors ease-in-out">
@@ -418,7 +494,7 @@
                     3D Modelling
                   </h1>
                   <span class="font-[300] text-gray-600 text-sm">
-                    Bring your imagination to life, one polygon at a time.
+                    Transform your ideas into reality.
                   </span>
                 </div>
 
@@ -429,10 +505,9 @@
                 </button>
               </div>
               <div class="h-[47vh] pt-3 !overflow-y-auto custom-scroll text-justify text-gray-700">
-                This course is designed for creatives, animators, and game developers who want to turn their ideas in 3D
-                masterpieces.
-                From your first concept sketch to fully rendered models, you'll learn how to create, sculpt, texture,
-                and animate 3D assets using industry-standard tools.
+                Designed for creatives, innovators, and hobbyists, this course makes 3D modelling and printing truly addictive. You'll go beyond
+                the screen, learning to transform your designs into tangible realities. This course introduces you to the eexciting world of three-dimensional design,
+                from conceptualization to creation and even physical production through 3D printing.
 
                 <div class="flex gap-3 my-5 py-3 border-y border-gray-200 text-sm">
                   <div class="text-gray-600">
@@ -445,27 +520,23 @@
 
                 <b>What you'll learn:</b>
                 <ul class="list-disc list-outside ml-5">
-                  <li>Principles of 3D Modelling and design.</li>
-                  <li>Getting started with tools like Blender, Maya, or 3ds Max.</li>
-                  <li>Modelling basics: shapes, meshes, polygons, and topology.</li>
-                  <li>Sculpting high-deetail characters and environments.</li>
-                  <li>UV mapping and texturing for realism.</li>
-                  <li>Basic rigging and animation for movement.</li>
-                  <li>Rendering techniques for polished outputs.</li>
-                  <li>Exporting models for games, animation, or <abbr
-                      title="Argumented Reality/Virtual Reality">AR/VR</abbr> use</li>
+                  <li>The fundamentals of 3D modelling principles and concepts.</li>
+                  <li>Proficiency in 3D modelling software (eg. Blender, Moi, or similiar depending on the course focus).</li>
+                  <li>Techniques for creating various 3D shapes, objects, and environments.</li>
+                  <li>Preparing models for 3D printing and understanding common printing techniques.</li>
+                  <li>Portfolio development for showcasing your 3D work.</li>
                 </ul>
 
                 <br />
-                <b>Ideal for:</b> Digital artists, animators, game designers, architects, and storytellers ready to
-                explore the 3D world. No prior experience reequired, just creativity and a passion for visual design.
+                <b>Ideal for:</b> Anyone with passion for design, art, engineering, or simply bringing ideas to life. This includes aspiring 3D designers, product designers, architects, artists, and hobbyists eager to explore the world of 3D printing.
 
                 <br /><br />
                 <b>By the end of this course, you will:</b>
                 <ul class="list-disc list-outside ml-5">
-                  <li>Know how to model, texture, and render 3D objects.</li>
-                  <li>Build assets for use in games, animations, and simulations.</li>
-                  <li>Develop a portfolio-worthy project from scratch.</li>
+                  <li>Be able to design and create complex 3D models from scratch.</li>
+                  <li>Understand the workflow from digital concept to physical 3D print.</li>
+                  <li>Have a solid portfolio of 3D models to showcase your skills.</li>
+                  <li>Possess a strong foundation for pursuing advanced 3D design.</li>
                 </ul>
               </div>
             </div>
